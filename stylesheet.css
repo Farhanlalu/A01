@@ -4,13 +4,19 @@ body {
 
 li {
     list-style: none;
-    float: right;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .header {
     height: 90px;
-    background-color: rgb(12, 71, 39);
+    background-color: rgb(24, 66, 129);
     color: white;
+    padding-top: 10px;
 }
 
 .header-logo {
@@ -24,41 +30,80 @@ li {
 }
 
 .header-list li {
+    float: right;
     font-size: 18px;
     padding: 20px 10px;
     margin-left: 10px;
 }
 
 .main {
-    height: 600px;
+    padding: 180px 0 100px 0;
     background-image:url(http://semarangkota.go.id/packages/upload/slider/s7KKteG.jpg);
     background-size: cover;
     color: white;
+    text-align: center;
+}
+
+.main-content {
+    background-color: black;
+    opacity: 0.5;
+    padding: 20px;
+    margin-bottom: 50px;
 }
 
 .main-content h1 {
-    padding: 100px 80px;
+    font-size: 36px;
+}
+
+.main-content h2 {
+    font-size: 24px;
 }
 
 .content2 {
-    height: 500px;
     background-color: white;
 }
 
+
+.kuliner-item {
+    float: left;
+    margin-right: 20px;
+}
+
+.kuliner-title {
+    border-bottom: 1px solid;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.kuliner-item img {
+    max-width: 300px;
+}
+
 .footer {
+    margin-top: 50px;
     height: 90px;
-    background-color: rgb(12, 71, 39);
+    background-color: #2f5167;
     color: white;
+    padding: 15px;
 }
 
 .footer-logo {
-    font-size: 30px;
+    font-size: 20px;
     float: left;
     padding: 10px 20px;
 }
 
 .footer-logo span {
     color: yellow;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    font-size: 14px;
+    padding-bottom: 20px;
 }
 
 /* tabel */
